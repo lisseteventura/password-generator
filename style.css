@@ -1,12 +1,12 @@
 body {
-  background-color: #333;
+  /* background: linear-gradient(to right, #26d0ce, #1a2980); */
   color: white;
   margin: 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* font-family: cursive; */
+  font-family: "Share Tech Mono", sans-serif;
 }
 
 .container {
