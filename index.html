@@ -8,7 +8,9 @@
   <body>
     <div class="container">
       <h1 class="title">Password Generator</h1>
-      <h3 class="password-display">password</h3>
+      <h3 class="password-display" id="pwDisplay">
+        You need a better password.
+      </h3>
       <form id="passwordGeneratorForm" class="form">
         <label for="characterAmountNumber">Number of Characters</label>
         <div class="amount-container">
@@ -29,7 +31,7 @@
           />
         </div>
 
-        <label for="includeUppercase">Include Uppercase</label>
+        <label for="includeUppercase">Include Uppercase Letters</label>
         <input type="checkbox" id="includeUppercase" />
 
         <label for="includeNumbers">Include Numbers</label>
